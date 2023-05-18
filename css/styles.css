@@ -166,3 +166,22 @@ header, .navbar {
 .service-box:hover > i, .service-box:hover > h4 {
     color: #65DAF9;
 }
+
+/* Dados da empresa */
+
+.cicle-box div {
+    padding: 0 40px;
+}
+
+.progressbar-text {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#data-area p {
+    color: #FFF;
+    text-align: center;
+    font-size: 26px;
+    margin-top: 20px;
+}
+
