@@ -248,3 +248,33 @@ header,
   border-color: #65daf9;
   background-color: #65daf9;
 }
+
+/* Portfolio */
+
+.project-box {
+  margin-bottom: 30px;
+}
+
+#filter-btn-box {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#portfolio-area .filter-btn {
+    color: #444;
+    border: 1px solid #444;
+    background-color: transparent;
+    text-transform: none;
+    margin: 0 15px;
+    min-width: 100px;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+}
+
+#portfolio-area .filter-btn:hover, #portfolio-area .filter-btn.active {
+    color: #fff;
+    border-color: #65daf9;
+    background-color: #65daf9;
+}
