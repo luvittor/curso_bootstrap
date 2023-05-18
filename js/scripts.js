@@ -112,7 +112,7 @@ $(document).ready(function () {
   // setTimeout serve para a animação não carregar mais que uma vez
   setTimeout(function () {
     $('#data-area').parallax({imageSrc: 'img/cidadeparallax.png'});
-    //$('#apply-area').parallax({imageSrc: 'img/pattern.png'});
+    $('#apply-area').parallax({imageSrc: 'img/pattern.png'});
   }, 250);
 
 

@@ -1,187 +1,250 @@
 /* Gerais */
 
 body {
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .row {
-    margin: 0;
+  margin: 0;
 }
 
 .container {
-    padding: 70px 0;
+  padding: 70px 0;
 }
 
-p, li {
-    color: #444;
-    font-size: 14px;
+p,
+li {
+  color: #444;
+  font-size: 14px;
 }
 
 /* Barra de Navegação */
 
-header, .navbar {
-    background-color: #353D41;
+header,
+.navbar {
+  background-color: #353d41;
 }
 
 #nav-container {
-    padding-top: 0;
-    padding-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 #logo {
-    width: 75px;
+  width: 75px;
 }
 
 .navbar-brand {
-    padding: 0;
-    color: #FFF;
+  padding: 0;
+  color: #fff;
 }
 
 .navbar-brand:hover {
-    color: #FFF;
+  color: #fff;
 }
 
 #navbar-links a {
-    color: #FFF;
+  color: #fff;
 }
 
 .nav-expand-lg .navbar-nav .nav-link {
-    padding: 1rem .8rem;
+  padding: 1rem 0.8rem;
 }
 
 /* Slider */
 
 .container-fluid {
-    padding: 0;
+  padding: 0;
 }
 
-#mainSlider .carousel-inner, #mainSlider .carousel-item {
-    height: 90vh;
+#mainSlider .carousel-inner,
+#mainSlider .carousel-item {
+  height: 90vh;
 }
 
 #mainSlider .carousel-caption {
-    top: 30%;
+  top: 30%;
 }
 
 #mainSlider .carousel-caption h2 {
-    font-size: 50px;
-    margin-bottom: 30px;
+  font-size: 50px;
+  margin-bottom: 30px;
 }
 
 #mainSlider .carousel-caption p {
-    font-size: 22px;
-    font-weight: 300;
-    margin-bottom: 100px;
-    color: #FFF;
+  font-size: 22px;
+  font-weight: 300;
+  margin-bottom: 100px;
+  color: #fff;
 }
 
 .main-btn {
-    background-color: #65DAF9;
-    color: #FFF;
-    text-transform: uppercase;
-    width: 200px;
-    height: 60px;
-    padding: 10px 20px;
-    border-radius: 30px;
-    border: 3px solid transparent;
-    transition: .5s;
+  background-color: #65daf9;
+  color: #fff;
+  text-transform: uppercase;
+  width: 200px;
+  height: 60px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: 3px solid transparent;
+  transition: 0.5s;
 }
 
 .main-btn:hover {
-    text-decoration: none;
-    color: #FFF;
-    background-color: transparent;
-    border-color: #65DAF9
+  text-decoration: none;
+  color: #fff;
+  background-color: transparent;
+  border-color: #65daf9;
 }
 
 .carousel-indicators .active {
-    background-color: #65DAF9;
+  background-color: #65daf9;
 }
 
 /* Sobre a empresa */
 
 #about-area {
-    background-color: #F9F9F9;
+  background-color: #f9f9f9;
 }
 
 .main-title {
-    color: #444;
-    margin: 0 0 65px 0;
-    font-size: 40px;
-    text-align: center;
+  color: #444;
+  margin: 0 0 65px 0;
+  font-size: 40px;
+  text-align: center;
 }
 
 .main-title::after {
-    content: "";
-    border-top: 2px solid #333;
-    width: 15%;
-    position: absolute;
-    top: 60px;
-    left: 42.5%;
+  content: "";
+  border-top: 2px solid #333;
+  width: 15%;
+  position: absolute;
+  top: 60px;
+  left: 42.5%;
 }
 
 .about-title {
-    font-size: 17px;
-    color: #444;
-    text-transform: uppercase;
-    font-weight: bold;
+  font-size: 17px;
+  color: #444;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 #about-list {
-    list-style: none;
-    padding-left: 0;
+  list-style: none;
+  padding-left: 0;
 }
 
 #about-list li {
-    line-height: 30px;
+  line-height: 30px;
 }
 
 #about-list i {
-    color: #65DAF9;
-    margin-right: 15px;
+  color: #65daf9;
+  margin-right: 15px;
 }
 
 /* Serviços */
 
 .service-box {
-    text-align: center;
-    margin-bottom: 50px;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
-.service-box i, .service-box h4 {
-    transition: .5s;
+.service-box i,
+.service-box h4 {
+  transition: 0.5s;
 }
 
 .service-box i {
-    font-size: 36px;
-    margin-bottom: 20px;
-    color: #444;
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #444;
 }
 
 .service-box h4 {
-    font-size: 24px;
-    margin-bottom: 20px;
+  font-size: 24px;
+  margin-bottom: 20px;
 }
 
-.service-box:hover > i, .service-box:hover > h4 {
-    color: #65DAF9;
+.service-box:hover > i,
+.service-box:hover > h4 {
+  color: #65daf9;
 }
 
 /* Dados da empresa */
 
 .cicle-box div {
-    padding: 0 40px;
+  padding: 0 40px;
 }
 
 .progressbar-text {
-    font-size: 32px;
-    font-weight: bold;
+  font-size: 32px;
+  font-weight: bold;
 }
 
 #data-area p {
-    color: #FFF;
-    text-align: center;
-    font-size: 26px;
-    margin-top: 20px;
+  color: #fff;
+  text-align: center;
+  font-size: 26px;
+  margin-top: 20px;
 }
 
+/* Time */
+
+.card-body {
+  text-align: center;
+}
+
+/* Trabalhe conosco */
+
+#apply-area {
+  height: 500px;
+}
+
+#apply-area .container-fluid,
+#apply-area .row {
+  height: 100%;
+}
+
+#apply-area .apply-box {
+  padding: 70px 50px;
+  text-align: center;
+}
+
+#company-img {
+  background-image: url("../img/empresa.jpg");
+  background-size: cover;
+  height: 100%;
+}
+
+#pattern-img h4,
+#pattern-img p {
+  color: #fff;
+}
+
+#pattern-img h4 {
+  margin-top: 8%;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+#pattern-img p {
+  margin-bottom: 20px;
+}
+
+#apply-btn {
+  display: block;
+  height: auto;
+  width: 180px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  background-color: transparent;
+  border-color: #fff;
+}
+
+#apply-btn:hover {
+  border-color: #65daf9;
+  background-color: #65daf9;
+}
